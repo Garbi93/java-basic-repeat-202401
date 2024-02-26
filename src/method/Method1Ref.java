@@ -9,6 +9,8 @@ public class Method1Ref {
         // 계산2
         int sum2 = add(15,20);
         System.out.println("결과2 출력 : " + sum2);
+
+        add(100, 200); // 메서드만 호출 하고 반환값을 안받을 수 있다.
     }
 
     // add 메서드
